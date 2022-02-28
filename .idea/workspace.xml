@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92f19d92-5ce7-424c-ac9f-5b8dfff6b5f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/Entities/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entities/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Entities/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entities/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Entities/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entities/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Entities/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entities/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Entities/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Entities/ContaPoupanca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Interface/IConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Interface/IConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bancoDigital/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Banco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entities/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entities/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/IConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/IConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bancoDigital/Application.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="25l5DkUKaf0bg0BMmkZqZq4uBqd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92f19d92-5ce7-424c-ac9f-5b8dfff6b5f7" name="Default Changelist" comment="" />
+      <created>1646088721997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646088721997</updated>
+    </task>
+    <servers />
+  </component>
+</project>

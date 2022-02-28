@@ -10,6 +10,22 @@ public abstract class Conta implements IConta {
 	private double saldo;	
 	private static int numConta = 1;
 	
+	public Conta() {
+		
+	}
+	
+	public static int newNumConta() {
+		return numConta++;
+	}
+
+	public int getNumConta() {
+		return numConta;
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+	
 	/*
 	 
 	public Conta(Cliente cliente) {
@@ -36,25 +52,7 @@ public abstract class Conta implements IConta {
 	public int getNumeroConta() {
 		return numeroConta;
 	}
-	
-	*/
-	
-	public Conta() {
 		
-	}
-	
-	public static int newNumConta() {
-		return numConta++;
-	}
-	
-	public double getSaldo() {
-		return saldo;
-	}
-	
-	public int getNumConta() {
-		return numConta;
-	}
-
 	@Override
 	public void sacar(double valor) {
 		saldo -= valor;
@@ -66,12 +64,12 @@ public abstract class Conta implements IConta {
 	}
 	
 	@Override
-	public void transferir(double valor, Conta contaDestino) {
-		this.sacar(valor);
+	public void transferir(Conta contaOrigem, Conta contaDestino, double valor) {
+		contaOrigem.sacar(valor);
 		contaDestino.depositar(valor); 
 	}
 	
-	/*
+	
 	protected void imprimirInfosComuns() {
 		System.out.printf("Titular: %s", this.cliente.getNome());
 		System.out.printf("\nAgencia: %d", this.agencia);

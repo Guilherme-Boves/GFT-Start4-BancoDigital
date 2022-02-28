@@ -1,6 +1,8 @@
 package Entities;
 
-public class ContaPoupanca extends Conta {
+import Interface.IConta;
+
+public class ContaPoupanca extends Conta implements IConta{
 
 	private int numConta;
 	private double saldo;
@@ -14,13 +16,26 @@ public class ContaPoupanca extends Conta {
 		return numConta;
 	}
 	
-	public double getSaldoContaPoupanca() {
+	public double getSaldo() {
 		return saldo;
 	}
 	
-	public void setSaldoContaPoupanca(double saldo) {
-		this.saldo = saldo;
+	@Override
+	public void sacar(double valor) {
+		saldo -= valor;
 	}
+	
+	@Override
+	public void depositar(double valor) {
+		saldo += valor;
+	}
+	
+	@Override
+	public void transferir(Conta contaOrigem, Conta contaDestino, double valor) {
+		contaOrigem.sacar(valor);
+		contaDestino.depositar(valor); 
+	}
+	
 /*
 	public void imprimirExtrato() {
 		

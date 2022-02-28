@@ -1,6 +1,8 @@
 package Entities;
 
-public class ContaCorrente extends Conta {
+import Interface.IConta;
+
+public class ContaCorrente extends Conta implements IConta {
 
 	private int numConta;
 	private double saldo;
@@ -15,12 +17,24 @@ public class ContaCorrente extends Conta {
 		return numConta;
 	}
 
-	public double getSaldoContaCorrente() {
+	public double getSaldo() {
 		return saldo;
 	}
-
-	public void setSaldoContaCorrente(double saldo) {
-		this.saldo = saldo;
+	  
+	@Override
+	public void sacar(double valor) {
+		saldo -= valor;
+	}
+	
+	@Override
+	public void depositar(double valor) {
+		saldo += valor;
+	}
+	
+	@Override
+	public void transferir(Conta contaOrigem, Conta contaDestino, double valor) {
+		contaOrigem.sacar(valor);
+		contaDestino.depositar(valor); 
 	}
 
 	/*
